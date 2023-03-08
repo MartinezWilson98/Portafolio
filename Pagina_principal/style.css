@@ -42,20 +42,6 @@ html {
 }
 
 /*Section_about_me*/
-
-section.principal_container_about_me {
-    padding-top: 5rem;
-}
-
-.principal_container_about_me {
-    background-color: bisque;
-    color: white;
-    font-size: 2rem;
-    padding: var(--padding-content);
-    text-align: justify;
-
-}
-
 .contenedor_foto_perfil {
     text-align: center;
 }
@@ -65,10 +51,26 @@ section.principal_container_about_me {
     border-radius: 50%;
 }
 
+section.principal_container_about_me {
+    padding-top: 5rem;
+}
+
+.principal_container_about_me {
+    background-color: bisque;
+    color: gray;
+    font-size: 2rem;
+    padding: var(--padding-content);
+    text-align: justify;
+}
+
 .container_about_me {
     background-color: blanchedalmond;
     padding: var(--padding-content);
     border-radius: 1.6rem;
+}
+
+.container_about_me h2,h3 {
+    padding: 1rem 0;
 }
 /*Section_my_skills*/
 
