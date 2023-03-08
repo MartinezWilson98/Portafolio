@@ -1,3 +1,7 @@
+:root {
+    --padding-content:1rem;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,5 +10,68 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
+/*Section_header*/
+
+.container_header {
+    align-items: center;
+    background-color: #f2ddc4;
+    color: white;
+    display: flex;
+    padding: .4rem 1.1rem;
+    place-content: space-between;
+    position: fixed;
+    width: 100%;
+
+}
+
+.nav {
+    list-style: none;
+    position:inherit;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin:.10rem;
+    padding: .2rem;
+}
+
+/*Section_about_me*/
+
+section.principal_container_about_me {
+    padding-top: 5rem;
+}
+
+.principal_container_about_me {
+    background-color: bisque;
+    color: white;
+    font-size: 2rem;
+    padding: var(--padding-content);
+    text-align: justify;
+
+}
+
+.contenedor_foto_perfil {
+    text-align: center;
+}
+
+.foto_perfil {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container_about_me {
+    background-color: blanchedalmond;
+    padding: var(--padding-content);
+    border-radius: 1.6rem;
+}
+/*Section_my_skills*/
+
+
+
+/*Section_my_projects*/
