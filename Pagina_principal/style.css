@@ -9,6 +9,7 @@
 }
 
 html {
+    background-color: #FAF0DF;
     font-size: 62.5%;
     font-family: 'Golos Text', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -56,24 +57,60 @@ section.principal_container_about_me {
 }
 
 .principal_container_about_me {
-    background-color: bisque;
+    background-color: #FAF0DF;
     color: gray;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: var(--padding-content);
     text-align: justify;
 }
 
+.principal_container_about_me p {
+    font-size: 1.6rem;
+}
+
 .container_about_me {
-    background-color: blanchedalmond;
-    padding: var(--padding-content);
+/*     background-color: blanchedalmond;
+ */    padding: var(--padding-content);
     border-radius: 1.6rem;
+}
+
+.container_general_info {
+    background: #f2ddc4;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.container_quien_soy {
+    background: #f2ddc4;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.container_que_me_motiva {
+    background: #f2ddc4;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
 }
 
 .container_about_me h2,h3 {
     padding: 1rem 0;
 }
 /*Section_my_skills*/
-
+.container_about_my_skills {
+    background-color: #FAF0DF;
+    color: gray;
+    font-size: 1.8rem;
+    padding: var(--padding-content);
+    text-align: justify;
+}
 
 
 /*Section_my_projects*/
+.container_about_my_projects {
+    background-color: #FAF0DF;
+    color: gray;
+    font-size: 1.8rem;
+    padding: var(--padding-content);
+    text-align: justify;
+}
