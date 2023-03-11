@@ -45,6 +45,7 @@ html {
 /*Section_about_me*/
 .contenedor_foto_perfil {
     text-align: center;
+    padding-top: 100px;
 }
 
 .foto_perfil {
@@ -97,6 +98,10 @@ section.principal_container_about_me {
     padding: 1rem 0;
 }
 /*Section_my_skills*/
+.principal_container_about_my_skills {
+    padding: var(--padding-content);
+}
+
 .container_about_my_skills {
     background-color: #FAF0DF;
     color: gray;
@@ -104,9 +109,15 @@ section.principal_container_about_me {
     padding: var(--padding-content);
     text-align: justify;
 }
+/*my_skills*/
+
 
 
 /*Section_my_projects*/
+.principal_container_about_my_projects {
+    padding: var(--padding-content);
+}
+
 .container_about_my_projects {
     background-color: #FAF0DF;
     color: gray;
